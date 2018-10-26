@@ -62,6 +62,7 @@ public class LinkStrand implements IDnaStrand{
 			r=r.next;
 		}
 		y.next=null;
+		i.myLast=y;
 		return i;
 	}
 	
