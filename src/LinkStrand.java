@@ -62,6 +62,7 @@ public class LinkStrand implements IDnaStrand{
 			y=o;
 			r=r.next;
 		}
+		System.out.println();
 		return i;
 	}
 	
