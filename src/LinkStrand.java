@@ -72,6 +72,8 @@ public class LinkStrand implements IDnaStrand{
 			r=r.next;
 		}
 		b.myLast=r;
+		b.myAppends=i.myAppends;
+		b.mySize=i.mySize;
 		return b;
 	}
 	
