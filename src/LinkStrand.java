@@ -110,9 +110,9 @@ public class LinkStrand implements IDnaStrand{
 				myCurrent = myCurrent.next;
 			}
 		}
-		myIndex=count;
-		myLocalIndex=dex;
+		myIndex=count+1;
+		myLocalIndex=dex+1;
 		return myCurrent.info.charAt(dex);
-	}
+0	}
 
 }
