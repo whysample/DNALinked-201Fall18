@@ -109,7 +109,7 @@ public class LinkStrand implements IDnaStrand{
 				if (dex >= myCurrent.info.length()) {
 					dex = 0;
 					myCurrent = myCurrent.next;
-				if(count==mySize) {
+				if(count>=mySize) {
 					throw new IndexOutOfBoundsException();
 				}
 				}
@@ -128,7 +128,7 @@ public class LinkStrand implements IDnaStrand{
 					dex = 0;
 					list = list.next;
 				}
-				if(count==mySize) {
+				if(count>=mySize) {
 					throw new IndexOutOfBoundsException();
 				}
 			}
