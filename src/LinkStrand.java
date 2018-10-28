@@ -12,9 +12,9 @@ public class LinkStrand implements IDnaStrand{
 	   private Node myFirst,myLast;
 	   private long mySize;
 	   private int myAppends;
-	   private Node myCurrent=null;
-	   private int myIndex=0;
-	   private int myLocalIndex=0;
+	   private Node myCurrent;
+	   private int myIndex;
+	   private int myLocalIndex;
 	public LinkStrand() {
 		this("");
 	}
@@ -33,6 +33,9 @@ public class LinkStrand implements IDnaStrand{
 		this.myLast=this.myFirst;
 		this.mySize=source.length();
 		this.myAppends=0;
+		this.myIndex=0;
+		this.myCurrent=null;
+		this.myLocalIndex=0;
 	}
 
 	@Override
