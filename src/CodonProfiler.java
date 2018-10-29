@@ -4,7 +4,8 @@ public class CodonProfiler {
 
 	/**
 	 * Count how many times each codon in an array of codons occurs
-	 * in a strand of DNA. Return int[] such that int[k] is number
+	 * in a strand of DNA. It utilizes the map to save the amount of times each codon occurs in the strand.
+	 * Return int[] such that int[k] is number
 	 * of occurrences of codons[k] in strand. Strand codons can start
 	 * at all valid indexes that are multiples of 3: 0, 3, 6, 9, 12, ...
 	 * @param strand is DNA to be analyzed for codon occurrences.
